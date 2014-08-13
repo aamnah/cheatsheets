@@ -50,11 +50,11 @@ mysql -u username -p < file.sql
 NOTES:
 ---
 
-   * If can not connect, check if the port is open on the server you are connecting from. RDS uses 3306. On KH server it couldn’t connect because the port was closed.
+   * If not connecting, check if the port is open on the server you are connecting from. RDS uses 3306. On KH server it couldn’t connect because the port was closed.
 
    * If the connection is not getting through the error would be ‘could not connect’.
 
-   * If login is incorrect the error would be ‘access denied’. mysql_connect(): Access denied for user.
+   * If login is incorrect the error would be ‘access denied’. *mysql_connect(): Access denied for user*.
 
    * The user you are connecting with needs to be created at RDS. It doesn’t matter if the server you are connecting from has it or not.
 
