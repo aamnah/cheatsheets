@@ -40,6 +40,14 @@ Examples
 ```5 4 * * sun``` = Run at 5 after 4 every Sunday  
 ```23 0-23/2 * * *``` = Run 23 mins after midnight, 2am, 4am, ... everyday.  
 
-**Sources:** 
+####Backup all databases in gzip file daily at 12am.
+```0 0 * * * mysqldump -u username -p -–all-databases | gzip > file.sql.gz```
+
+####Sync /home/usr to Amazon S3 via s3cmd every Sunday at 3am.
+```0 3 * * sun s3cmd -r sync /home/user s3://bucket/location```
+
+
+**More:**
+
 [List / Display all cron jobs](http://www.cyberciti.biz/faq/linux-show-what-cron-jobs-are-setup/)  
 [Crontab usage](http://www.computerhope.com/unix/ucrontab.htm)
