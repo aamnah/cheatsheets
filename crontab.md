@@ -3,11 +3,11 @@
 **List crontab entries** 
 `` crontab -l ``
 
-**Edit root user’s crontab** 
-`` sudo crontab -e ``
-
 **Edit crontab** 
 `` crontab -e ``
+
+**Edit root user’s crontab** 
+`` sudo crontab -e ``
 
 **Delete crontab** 
 `` crontab -r ``
