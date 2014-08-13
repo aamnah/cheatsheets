@@ -26,7 +26,7 @@ mysql -u username -p < file.sql
 `` mysql> GRANT ALL PRIVILEGES ON databasename.* TO 'username'@'host' ; ``
 
 ####CHECK if you can connect to the created database with the user you crteated
-`` mysql -uusername -p --host=mysql.hostmarkaz.com databasename  ``
+`` mysql -uusername -p --host=db.mysite.com databasename  ``
 
 ####Deleting MySQL User
 `` mysql> DROP USER 'username'@'host' ; ``
@@ -44,8 +44,8 @@ mysql -u username -p < file.sql
 ####View User Permissions for individual Databases
 `` SELECT user, host, db, select_priv, insert_priv, grant_priv FROM mysql.db ``
 
-####Sample Command: 
-`` mysqldump --user=root --password=password --host=vortex.aamnah.com wpblog | mysql --host=mysql.hostmarkaz.com --user=aamnah --password=password wpblog ``
+####Sample Command for creating a backup and restoring at remote server in one command: 
+`` mysqldump --user=root --password=password --host=mysql.mydomain.com db_1 | mysql --host=db.mysite.com --user=username --password=password db_1 ``
 
 NOTES:
 ---
