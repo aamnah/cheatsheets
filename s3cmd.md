@@ -2,14 +2,14 @@
 `` apt-get install s3cmd -y ``
 
 ####configuration
-`` s3cmd —configure ``
+`` s3cmd —configure ``  
 enter the access key and security code for aws.
 
 ####list s3 buckets
 `` s3cmd ls ``
 
 ####copy files to s3
-`` s3cmd -r put /home/user s3://bucket/location ``
+`` s3cmd -r put /home/user s3://bucket/location ``  
 -r is for copying dirs
 
 ####sync files to s3
@@ -32,4 +32,4 @@ Notes:
 ---
 - **/home/user vs. /home/user/**  
 /home/user means the ‘user’ directory and /home/user/ means ‘all files in the user dir’.
-- the -r flag is for copying directories
+- the **-r** flag is for copying directories
