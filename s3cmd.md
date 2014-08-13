@@ -21,6 +21,7 @@ and in the new screen add `` 0 5 * * * s3cmd -r sync /home/user s3://bucket/loca
 ctrl+o to save, confirm save and ctrl+x to exit
 
 OR  
+
 `` echo '0 5 * * * s3cmd -r sync /home/user s3://bucket/location' >> crontab ``
 to append the command at the end of the crontab.
 
