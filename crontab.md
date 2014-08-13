@@ -23,7 +23,7 @@ Format
 |---|---|---|---|---|
 | 0-59 | 0-23 | 1-31 | 1-12 (or names) | 0-7 (0 or 7 is Sun, or use names) |
 
-A field may be an asterisk ** ( * ) **, which always stands for "first through last".
+A field may be an **asterisk** ( * ), which always stands for "first through last".
 
 **Ranges** of numbers are allowed. Ranges are two numbers separated with a hyphen. The specified range is inclusive; for example, **8-11** for an "hours" entry specifies execution at hours 8, 9, 10 and 11.
 
