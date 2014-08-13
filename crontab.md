@@ -20,7 +20,7 @@ Format
 ---
 
 | minute | hour | day of month | month | day of week |
-|-|-|-|-|-|
+|---|---|---|---|---|
 | 0-59 | 0-23 | 1-31 | 1-12 (or names) | 0-7 (0 or 7 is Sun, or use names) |
 
 A field may be an asterisk ** ( * ) **, which always stands for "first through last".
