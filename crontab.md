@@ -10,8 +10,9 @@
 `` sudo crontab -e ``
 
 Examples
-5 0 * * * = Daily at 12:05am
-0 5 * * * = Daily at 5am.
+---
+```5 0 * * *``` = Daily at 12:05am  
+```0 5 * * *``` = Daily at 5am.
 
 
 **Sources:** 
