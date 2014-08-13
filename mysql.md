@@ -10,7 +10,7 @@ mysql -u username -p < file.sql
 
 
 ####Connect to Amazon RDS
-`` mysql -uaamnah --password —host=rds.hostmarkaz.com ``
+`` mysql -uaamnah --password —host=db.mysite.com ``
 
 ####Creating MySQL database
 `` mysql > CREATE DATABASE databasename ; ``
@@ -19,7 +19,7 @@ mysql -u username -p < file.sql
 `` mysql> CREATE USER 'username'@'host' IDENTIFIED BY 'password' ; ``
 
 ####Allowing User to Connect
-// grant usage on server so the user can connect
+// grant usage on server so the user can connect  
 `` mysql> GRANT USAGE ON *.* TO 'username'@'host' ; ``
 
 ####Granting Privileges
