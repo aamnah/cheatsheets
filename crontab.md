@@ -46,5 +46,10 @@ Examples
 ####Sync /home/usr to Amazon S3 via s3cmd every Sunday at 3am.
 ```0 3 * * sun s3cmd -r sync /home/user s3://bucket/location```
 
+
+Notes
+---
+- For the commands that require **sudo** to run, adding them to a regular user's crontab would be a problem (because of having to enter the password for them to run). In cases like these, you can add the commands to the root user's crontab so it'd already have sudo status.
+
 ---
 **Source:** [List / Display all cron jobs](http://www.cyberciti.biz/faq/linux-show-what-cron-jobs-are-setup/), [Crontab usage](http://www.computerhope.com/unix/ucrontab.htm)
