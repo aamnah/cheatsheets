@@ -7,5 +7,5 @@ a collection of cheatsheets with commands, tips, tricks and how-tos of the thing
 - [Database Backups](backup_mysql.md)
 - [Linux Commands](linux_commands.md)
 - [MySQL](mysql.md)
-- [SQL Basics](sql_basics)
+- [SQL Basics](sql_basics.md)
 - [S3cmd](s3cmd.md)
