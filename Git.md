@@ -9,10 +9,6 @@
 - `git add filename.txt` - Add files to track
 - `git add -A` - Add all files in the folder to track 
 
-## Commits
-
-
-
 ## Branches
 
 ### List
@@ -31,3 +27,9 @@
 - `git branch -d foo` - delete local branch
 - `git push origin --delete foo` - delete remote branch
 - `git branch -D foo` - use -D to force deletion without checking merged status
+
+Links
+---
+- [StackOverflow: List all remote branches](http://stackoverflow.com/questions/3471827/how-do-i-list-all-remote-branches-in-git-1-7)
+- [StackOverflow: Delete branch both locally and remotely](http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely)
+- [TLDR Dev Notes: Git Basics](http://tldrdevnotes.com/git-basics/)
