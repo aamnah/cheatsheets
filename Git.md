@@ -35,10 +35,12 @@
 - `git branch -m <newname>` - Rename the current branch (local)
 - `git branch -m <oldname> <newname>` - Rename a local branch
 - `git push <remote> <remote>/<old_name>:refs/heads/<new_name> :<old_name>` - Rename remote branch. If you really just want to rename branches remotely (without renaming any local branches at the same time) you can do this with a single command [href][1]
-- Rename a remote branch
+
+OR
+
 ```bash
-git branch -m <oldname> <newname>     # Rename branch locally    
-git push origin --delete <oldname>    # Delete the old branch    
+git branch -m <oldname> <newname>     # Rename branch locally
+git push origin --delete <oldname>    # Delete the old branch on remote    
 git push -u origin <newname>          # Push the new branch, set local branch to track the new remote
 ```
 
