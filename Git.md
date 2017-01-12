@@ -49,5 +49,6 @@ Links
 - [StackOverflow: Delete branch both locally and remotely](http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely)
 - [StackOverflow: git branch naming best practices](http://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
 - [StackOverflow: Rename local branch](http://stackoverflow.com/questions/6591213/how-to-rename-a-local-git-branch)
+- [StackOverflow: Renaming remote branches](http://stackoverflow.com/questions/4753888/git-renaming-branches-remotely)
 
 [1]: http://stackoverflow.com/a/21302474/890814
