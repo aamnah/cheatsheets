@@ -31,9 +31,23 @@
 - `git push origin --delete foo` - delete remote branch
 - `git branch -D foo` - use -D to force deletion without checking merged status
 
+### Rename
+- `git branch -m <newname>` - Rename the current branch (local)
+- `git branch -m <oldname> <newname>` - Rename a local branch
+- `git push <remote> <remote>/<old_name>:refs/heads/<new_name> :<old_name>` - Rename remote branch [href][1]
+- Rename a remote branch
+```bash
+git branch -m <oldname> <newname>     # Rename branch locally    
+git push origin --delete <oldname>    # Delete the old branch    
+git push -u origin <newname>          # Push the new branch, set local branch to track the new remote
+```
+
 Links
 ---
 - [TLDR Dev Notes: Git Basics](http://tldrdevnotes.com/git-basics/)
 - [StackOverflow: List all remote branches](http://stackoverflow.com/questions/3471827/how-do-i-list-all-remote-branches-in-git-1-7)
 - [StackOverflow: Delete branch both locally and remotely](http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely)
 - [StackOverflow: git branch naming best practices](http://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
+- [StackOverflow: Rename local branch](http://stackoverflow.com/questions/6591213/how-to-rename-a-local-git-branch)
+
+[1]: http://stackoverflow.com/a/21302474/890814
