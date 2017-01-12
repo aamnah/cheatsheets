@@ -33,6 +33,7 @@
 
 Links
 ---
+- [TLDR Dev Notes: Git Basics](http://tldrdevnotes.com/git-basics/)
 - [StackOverflow: List all remote branches](http://stackoverflow.com/questions/3471827/how-do-i-list-all-remote-branches-in-git-1-7)
 - [StackOverflow: Delete branch both locally and remotely](http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely)
-- [TLDR Dev Notes: Git Basics](http://tldrdevnotes.com/git-basics/)
+- [StackOverflow: git branch naming best practices](http://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
