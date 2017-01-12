@@ -5,6 +5,7 @@ a collection of cheatsheets with commands, tips, tricks and how-tos of the thing
 
 - [Crontab](crontab.md)
 - [Database Backups](backup_mysql.md)
+- [Git](git.md)
 - [Linux Commands](linux_commands.md)
 - [MySQL](mysql.md)
 - [SQL Basics](sql_basics.md)
