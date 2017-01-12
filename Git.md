@@ -18,6 +18,9 @@
 - `git branch -a` - List all branches  
 - `git ls-remote --heads <remote-name>` - List remote branches (If remote name is `origin`, you can skip referncing it since it's the default)  
 - `git ls-remote [url]` - List remote branches (so you don't have to clone it first)
+- `git branch --list "*/foo"` List branch by pattern matching (all branches ending in foo)
+- `git branch --list "test/*"` List branch by pattern matching (all branches starting with test)
+- `gitk --branches="*/foo"` List branch by pattern matching
 
 ### Checkout
 - `git checkout foo` - Checkout a branch
