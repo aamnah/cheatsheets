@@ -1,9 +1,4 @@
 # tmux
----
-title: tmux cheatsheet
-date: 2019-08-21
----
-
 
 | action | key bindings |
 |-|-|
